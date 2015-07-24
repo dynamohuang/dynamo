@@ -6,6 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
+    'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
+    'Illuminate\\Support\\' => array($vendorDir . '/illuminate/support'),
+    'Illuminate\\Events\\' => array($vendorDir . '/illuminate/events'),
+    'Illuminate\\Database\\' => array($vendorDir . '/illuminate/database'),
+    'Illuminate\\Contracts\\' => array($vendorDir . '/illuminate/contracts'),
+    'Illuminate\\Container\\' => array($vendorDir . '/illuminate/container'),
     'Core\\' => array($baseDir . '/core'),
     'App\\Model\\' => array($baseDir . '/app/model'),
     'App\\Controller\\' => array($baseDir . '/app/controller'),
