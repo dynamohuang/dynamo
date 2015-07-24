@@ -1,0 +1,25 @@
+{
+    "name": "dynamohuang/dynamo",
+    "description": "A light mvc framwork",
+    "authors": [
+        {
+            "name": "dynamohuang",
+            "email": "huangdingzhi@foxmail.com"
+        }
+    ],
+    "require": {
+	},
+    "repositories": [
+                {"type": "composer", "url": "http://pkg.phpcomposer.com/repo/packagist/"},
+                {"packagist": false}
+     ],
+     "autoload":{
+        "psr-4": {
+            "Core\\":"core/",
+	    "App\\Model\\": "app/model/",
+        "App\\Controller\\": "app/controller/"
+        }
+    }
+        
+
+}
